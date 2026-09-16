@@ -19,3 +19,51 @@ usando ~~Markdown~~.
 - [X] Generar Matricula
 - [ ] Campo Vacío
 - [ ] Libre
+
+## Creando Tablas
+| Lenguaje de Programación | Creador |
+| ------------------------ | ------- |
+| Java |James Cosling |
+| PHP  |Rasmus Lerdorf|
+| Python | Guido Van Rossum |
+
+## Código
+```html
+<h1>Hola Mundo</h1>
+```
+
+```css
+body{
+    background:"red";
+}
+```
+
+```java
+public class Main {
+    public static void main(String[] args){
+        System.out.println("Hola Mundo Java");        
+    }
+}
+```
+
+```javascript
+console.log("Hola Mundo Javascript");
+```
+
+## Mermaid Diagramas
+```mermaid
+flowchart TD
+A[Usuario] --> B[Iniciar Sesión]
+B --> C{Credenciales Válidas}
+C --> |Si| D[Acceder al Sistema]
+C --> |No| E[Error del Sistema]
+```
+
+```mermaid 2
+flowchart TD
+A[Tecsup] --> B[Breve Concepto]
+B --> C[Informática]
+B --> D[Diseño]
+B --> E[Administración]
+B --> F[Mecánica]
+```
